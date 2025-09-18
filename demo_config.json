@@ -1,0 +1,32 @@
+{
+  "demo_config": {
+    "name": "Simple RAG Demo Configuration",
+    "description": "Configuration template for customizing the RAG demo",
+    "version": "1.0"
+  },
+  "chunking": {
+    "chunk_size": 200,
+    "overlap": 20,
+    "min_chunk_length": 50
+  },
+  "retrieval": {
+    "max_chunks": 3,
+    "min_relevance_score": 0.1,
+    "keyword_boost_factor": 0.3
+  },
+  "sample_documents": [
+    {
+      "title": "Custom Document 1",
+      "content": "Add your own content here to test with custom documents."
+    },
+    {
+      "title": "Custom Document 2", 
+      "content": "This is another example document that you can customize."
+    }
+  ],
+  "sample_queries": [
+    "Your custom query 1",
+    "Your custom query 2",
+    "Your custom query 3"
+  ]
+}
